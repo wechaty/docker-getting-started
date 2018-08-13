@@ -1,11 +1,17 @@
 # DOCKER-WECHATY-GETTING-STARTED
 
 [![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-blue.svg)](https://github.com/chatie/wechaty)
-[![Build Status](https://travis-ci.com/Chatie/docker-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/Chatie/docker-wechaty-getting-started)
+[![Docker Pulls](https://img.shields.io/docker/pulls/zixia/wechaty.svg?maxAge=2592000)](https://hub.docker.com/r/zixia/wechaty/)
+[![Docker Stars](https://img.shields.io/docker/stars/zixia/wechaty.svg?maxAge=2592000)](https://hub.docker.com/r/zixia/wechaty/)
+[![Docker Layers](https://images.microbadger.com/badges/image/zixia/wechaty.svg)](https://microbadger.com/#/images/zixia/wechaty)
+
+[![dockeri.co](http://dockeri.co/image/zixia/wechaty)](https://hub.docker.com/r/zixia/wechaty/)
 
 Getting Started Template for Docker Users
 
 ## FEATURES
+
+Wechaty is fully dockerized. So it will be very easy to be used as a MicroService. 
 
 Use Docker to run Wechaty without any configuration.
 
