@@ -16,8 +16,8 @@ Getting Started Template for Docker Users
 
 ## REQUIREMENTS
 
-1. Docker Installed
-1. Good Global Internet Connection
+1. Docker
+1. Global Internet Connection
 
 ## USAGE
 
