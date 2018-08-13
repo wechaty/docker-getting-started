@@ -12,7 +12,7 @@ Getting Started Template for Docker Users
 
 ## FEATURES
 
-1. Wechaty is fully dockerized. So it will be very easy to be used as a MicroService. 
+1. Wechaty is fully dockerized. So it will be very easy to be used as a MicroService.
 1. Clone this repository, then you will be able to use Docker to run Wechaty with ZERO configuration.
 
 ## REQUIREMENTS
@@ -67,7 +67,7 @@ Thanks Docker, there's a official registry mirror in China, and you can use it b
 + docker pull registry.docker-cn.com/zixia/wechaty
 ```
 
-See Also:
+Learn more about CN mirror:
 
 - https://www.docker-cn.com/registry-mirror
 - https://docs.docker.com/registry/recipes/mirror/#use-case-the-china-registry-mirror
@@ -75,6 +75,11 @@ See Also:
 ## TEST
 
 BATS: [HOW TO USE BATS TO TEST YOUR COMMAND LINE TOOLS](https://www.engineyard.com/blog/bats-test-command-line-tools)
+
+## SEE ALSO
+
+1. Wechaty Getting Started: <https://github.com/Chatie/wechaty-getting-started>
+2. Hero Wechaty Getting Started: <https://github.com/Chatie/heroku-wechaty-getting-started>
 
 ## AUTHOR
 
