@@ -14,7 +14,7 @@ fixtures=tests/fixtures
   run dockerRun javascript.js
 
   [ "$status" -eq 0 ]
-  [[ $output =~ "https://login.weixin.qq.com/" ]]
+  [[ $output =~ "SMOKE TESTING PASSED" ]]
 }
 
 @test "should succ with typescript" {
@@ -22,5 +22,5 @@ fixtures=tests/fixtures
   run dockerRun typescript.ts
 
   [ "$status" -eq 0 ]
-  [[ $output =~ "https://login.weixin.qq.com/" ]]
+  [[ $output =~ "SMOKE TESTING PASSED" ]]
 }
