@@ -71,6 +71,10 @@ See Also:
 - https://www.docker-cn.com/registry-mirror
 - https://docs.docker.com/registry/recipes/mirror/#use-case-the-china-registry-mirror
 
+## TEST
+
+BATS: [HOW TO USE BATS TO TEST YOUR COMMAND LINE TOOLS](https://www.engineyard.com/blog/bats-test-command-line-tools)
+
 ## AUTHOR
 
 [Huan LI](http://linkedin.com/in/zixia) \<zixia@zixia.net\>
