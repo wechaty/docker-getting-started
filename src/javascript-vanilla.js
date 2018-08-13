@@ -67,7 +67,7 @@ bot.start()
  *
  */
 function onScan (qrcode, status) {
-  generate(qrcode, { small: true })
+  qrTerm.generate(qrcode, { small: true })
 
   // Generate a QR Code online via
   // http://goqr.me/api/doc/create-qr-code/

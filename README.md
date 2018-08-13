@@ -11,9 +11,8 @@ Getting Started Template for Docker Users
 
 ## FEATURES
 
-Wechaty is fully dockerized. So it will be very easy to be used as a MicroService. 
-
-Use Docker to run Wechaty without any configuration.
+1. Wechaty is fully dockerized. So it will be very easy to be used as a MicroService. 
+1. Clone this repository, then you will be able to use Docker to run Wechaty with ZERO configuration.
 
 ## REQUIREMENTS
 

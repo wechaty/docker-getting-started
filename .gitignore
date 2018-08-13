@@ -62,3 +62,4 @@ typings/
 .config/
 .node-gyp/
 *.memory-card.json
+.pki/
