@@ -22,7 +22,7 @@ import {
   Wechaty,
 }           from 'wechaty'
 
-import { generate } from 'qrcode-terminal'
+import qrTerm from 'qrcode-terminal'
 
 /**
  *
@@ -69,7 +69,7 @@ bot.start()
  *
  */
 function onScan (qrcode: string, status: number) {
-  generate(qrcode, { small: true })
+  qrTerm.generate(qrcode, { small: true })
 
   // Generate a QR Code online via
   // http://goqr.me/api/doc/create-qr-code/
