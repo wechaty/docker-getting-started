@@ -22,22 +22,34 @@ Getting Started Template for Docker Users
 
 ## USAGE
 
-### 1. Run Vanilla Javascript Example
+### 1. Run Bot Examples
+
+#### 1.1 Run Vanilla Javascript Example
 
 ```shell
 bash -x bin/docker-run-javascript-vanilla.sh
 ```
 
-### 2. Run ES6 Javascript Example
+#### 1.2. Run ES6 Javascript Example
 
 ```shell
 bash -x bin/docker-run-javascript-es6.sh
 ```
 
-### 3. Run TypeScript Example
+#### 1.3 Run TypeScript Example
 
 ```shell
 bash -x bin/docker-run-typescript.sh
+```
+
+### 2. Set Environment Variables
+
+The above scripts(`bin/docker-run-*.sh`) will pass all environment variables that start with `WECHATY_` from current shell to the Docker container.
+
+All you need is just to set it under the shell before you run the `bin/docker-run-*.sh`.
+
+```shell
+export WECHATY_LOG=verbose
 ```
 
 ## DOCKER

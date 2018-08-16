@@ -1,7 +1,7 @@
 #!/usr/bin/env bats
 
-# import WECHATY_IMAGE from bin/docker-wechaty-image.sh
-source bin/docker-wechaty-image.env
+# import WECHATY_IMAGE from bin/docker-config.sh
+source bin/docker-config.sh
 
 function dockerRun() {
   docker run -v "$(pwd)":/bot ${WECHATY_IMAGE} $@
