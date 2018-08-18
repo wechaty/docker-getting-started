@@ -8,7 +8,7 @@ source $(dirname $0)/docker-config.sh
 
 DOCKER_ENV=$(docker::env $(env | grep WECHATY_) )
 
-# docker pull "$WECHATY_IMAGE"
+[ -z "$NO_PULL" ] && docker pull "$WECHATY_IMAGE"
 
 docker run \
   -t -i --rm \
