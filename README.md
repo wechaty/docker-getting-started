@@ -26,17 +26,23 @@ Getting Started Template for Docker Users
 
 #### 1.1 Run Vanilla Javascript Example
 
+Source code at `src/javascript-vanilla.js`
+
 ```shell
 bin/docker-run-javascript-vanilla.sh
 ```
 
 #### 1.2. Run ES6 Javascript Example
 
+Source code at `src/javascript-es6.js`
+
 ```shell
 bin/docker-run-javascript-es6.sh
 ```
 
 #### 1.3 Run TypeScript Example
+
+Source code at `src/typescript.ts`
 
 ```shell
 bin/docker-run-typescript.sh
