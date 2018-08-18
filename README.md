@@ -27,19 +27,19 @@ Getting Started Template for Docker Users
 #### 1.1 Run Vanilla Javascript Example
 
 ```shell
-bash -x bin/docker-run-javascript-vanilla.sh
+bin/docker-run-javascript-vanilla.sh
 ```
 
 #### 1.2. Run ES6 Javascript Example
 
 ```shell
-bash -x bin/docker-run-javascript-es6.sh
+bin/docker-run-javascript-es6.sh
 ```
 
 #### 1.3 Run TypeScript Example
 
 ```shell
-bash -x bin/docker-run-typescript.sh
+bin/docker-run-typescript.sh
 ```
 
 ### 2. Set Environment Variables
