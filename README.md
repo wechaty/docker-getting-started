@@ -96,8 +96,8 @@ BATS: [HOW TO USE BATS TO TEST YOUR COMMAND LINE TOOLS](https://www.engineyard.c
 
 ## SEE ALSO
 
-1. Wechaty Getting Started: <https://github.com/Chatie/wechaty-getting-started>
-2. Heroku Wechaty Getting Started: <https://github.com/Chatie/heroku-wechaty-getting-started>
+1. Wechaty Getting Started: <https://github.com/wechaty/wechaty-getting-started>
+2. Heroku Wechaty Getting Started: <https://github.com/wechaty/heroku-wechaty-getting-started>
 
 ## AUTHOR
 
