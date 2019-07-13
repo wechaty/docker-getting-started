@@ -4,7 +4,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/zixia/wechaty.svg?maxAge=2592000)](https://hub.docker.com/r/zixia/wechaty/)
 [![Docker Stars](https://img.shields.io/docker/stars/zixia/wechaty.svg?maxAge=2592000)](https://hub.docker.com/r/zixia/wechaty/)
 [![Docker Layers](https://images.microbadger.com/badges/image/zixia/wechaty.svg)](https://microbadger.com/#/images/zixia/wechaty)
-[![Build Status](https://travis-ci.com/Chatie/docker-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/Chatie/docker-wechaty-getting-started)
+[![Build Status](https://travis-ci.com/wechaty/docker-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/wechaty/docker-wechaty-getting-started)
 
 [![dockeri.co](http://dockeri.co/image/zixia/wechaty)](https://hub.docker.com/r/zixia/wechaty/)
 
