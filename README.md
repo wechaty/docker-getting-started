@@ -76,20 +76,6 @@ wget -qO- https://get.docker.com/ | sh
 
 Get to know more about Docker at: <https://www.docker.com/>
 
-### Use Docker Registry China Mirror
-
-Thanks Docker, there's a official registry mirror in China, and you can use it by adding `registry.docker-cn.com/` in front of the image name:
-
-```diff
-- docker pull zixia/wechaty
-+ docker pull registry.docker-cn.com/zixia/wechaty
-```
-
-Learn more about CN mirror:
-
-- https://www.docker-cn.com/registry-mirror
-- https://docs.docker.com/registry/recipes/mirror/#use-case-the-china-registry-mirror
-
 ## TEST
 
 BATS: [HOW TO USE BATS TO TEST YOUR COMMAND LINE TOOLS](https://www.engineyard.com/blog/bats-test-command-line-tools)
