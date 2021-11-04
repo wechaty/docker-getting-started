@@ -15,15 +15,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Environment
-      run: docker version
     - name: Install Bats
       run: sudo apt install bats
-    - name: Pull Docker Image
-      run: docker pull wechaty/wechaty
     - name: Test
-      run: |
-          pwd
-          ls -l
-          ./bin/docker-run.sh tests/fixtures/javascript.js
-          bats tests/
+      run: bats tests/
