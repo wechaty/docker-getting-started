@@ -16,5 +16,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-        apt install bats
+        sudo apt install bats
         bats tests/
