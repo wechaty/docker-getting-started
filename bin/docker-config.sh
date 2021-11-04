@@ -1,5 +1,3 @@
-# WECHATY_IMAGE=zixia/wechaty:0.20
-
 WECHATY_IMAGE=wechaty/wechaty
 
 function docker::env () {

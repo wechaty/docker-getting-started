@@ -17,8 +17,8 @@
  *
  */
 import {
-  Wechaty,
-}           from 'wechaty'
+  WechatyBuilder,
+}                   from 'wechaty'
 
 import qrTerm from 'qrcode-terminal'
 
@@ -27,8 +27,9 @@ import qrTerm from 'qrcode-terminal'
  * 1. Declare your Bot!
  *
  */
-const bot = new Wechaty({
+const bot = WechatyBuilder.build({
   name : 'javascript-es6',
+  puppet: 'wechaty-puppet-wechat',
 })
 
 /**

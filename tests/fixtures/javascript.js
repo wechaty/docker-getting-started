@@ -1,5 +1,7 @@
-import { Wechaty } from 'wechaty'
-const bot = new Wechaty()
+import { WechatyBuilder } from 'wechaty'
+const bot = WechatyBuilder.build({
+  puppet: 'wechaty-puppet-wechat'
+})
 bot.on('scan', qrcode => {
   console.log(qrcode)
   console.log('SMOKE TESTING PASSED')
