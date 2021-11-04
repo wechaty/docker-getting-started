@@ -10,7 +10,15 @@ DOCKER_ENV=$(docker::env $(env | grep WECHATY_) )
 
 [ -z "$NO_PULL" ] && docker pull "$WECHATY_IMAGE"
 
+# https://stackoverflow.com/a/911213/1123955
+if [ -t 1 ]; then
+  TI=' -t -i '
+else
+  TI=''
+fi
+
 docker run \
+  $TI \
   --rm \
   --name wechaty \
   --mount type=bind,source="$(pwd)",target=/bot \

@@ -19,6 +19,7 @@
 import {
   Contact,
   Message,
+  Wechaty,
   WechatyBuilder,
 }                   from 'wechaty'
 
@@ -29,7 +30,7 @@ import qrTerm from 'qrcode-terminal'
  * 1. Declare your Bot!
  *
  */
-const bot = WechatyBuilder.build({
+const bot: Wechaty = WechatyBuilder.build({
   name : 'typescript',
   puppet: 'wechaty-puppet-whatsapp',
 })
@@ -40,10 +41,10 @@ const bot = WechatyBuilder.build({
  *
  */
 bot
-.on('login',  onLogin)
-.on('scan',   onScan)
-.on('error',  onError)
-.on('message', onMessage)
+.on('login',    onLogin)
+.on('scan',     onScan)
+.on('error',    onError)
+.on('message',  onMessage)
 
 /**
  *
@@ -72,10 +73,9 @@ bot.start()
 function onScan (qrcode: string, status: number) {
   qrTerm.generate(qrcode, { small: true })
 
-  // Generate a QR Code online via
-  // http://goqr.me/api/doc/create-qr-code/
+  // Generate a QR Code URL to show it in browser
   const qrcodeImageUrl = [
-    'https://api.qrserver.com/v1/create-qr-code/?data=',
+    'https://wechaty.js.org/qrcode/',
     encodeURIComponent(qrcode),
   ].join('')
 
@@ -97,6 +97,6 @@ function onError (e: Error) {
  *    dealing with Messages.
  *
  */
-async function onMessage (msg: Message) {
-  console.log(msg.toString())
+async function onMessage (message: Message) {
+  console.log(message.toString())
 }

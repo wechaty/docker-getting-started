@@ -28,7 +28,7 @@ import qrTerm from 'qrcode-terminal'
  *
  */
 const bot = WechatyBuilder.build({
-  name : 'javascript-es6',
+  name : 'javascript-esm',
   puppet: 'wechaty-puppet-wechat',
 })
 
@@ -38,10 +38,10 @@ const bot = WechatyBuilder.build({
  *
  */
 bot
-.on('login',  onLogin)
-.on('scan',   onScan)
-.on('error',  onError)
-.on('message', onMessage)
+.on('login',    onLogin)
+.on('scan',     onScan)
+.on('error',    onError)
+.on('message',  onMessage)
 
 /**
  *
@@ -70,10 +70,9 @@ bot.start()
 function onScan (qrcode, status) {
   qrTerm.generate(qrcode, { small: true })
 
-  // Generate a QR Code online via
-  // http://goqr.me/api/doc/create-qr-code/
+  // Generate a QR Code URL to show it in browser
   const qrcodeImageUrl = [
-    'https://api.qrserver.com/v1/create-qr-code/?data=',
+    'https://wechaty.js.org/qrcode/',
     encodeURIComponent(qrcode),
   ].join('')
 
@@ -95,6 +94,6 @@ function onError (e) {
  *    dealing with Messages.
  *
  */
-async function onMessage (msg) {
-  console.log(msg.toString())
+async function onMessage (message) {
+  console.log(message.toString())
 }
