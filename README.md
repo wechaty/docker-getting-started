@@ -82,6 +82,16 @@ BATS: [HOW TO USE BATS TO TEST YOUR COMMAND LINE TOOLS](https://www.engineyard.c
 1. Wechaty Getting Started: <https://github.com/wechaty/wechaty-getting-started>
 2. Heroku Wechaty Getting Started: <https://github.com/wechaty/heroku-wechaty-getting-started>
 
+## HISTORY
+
+### main 1.0 (Nov 4, 2021)
+
+Update to fit Wechaty v1.x API
+
+### v0.1 (Aug 14, 2018)
+
+Init docker support.
+
 ## AUTHOR
 
 [Huan LI](http://linkedin.com/in/zixia) \<zixia@zixia.net\>
