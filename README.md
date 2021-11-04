@@ -86,7 +86,8 @@ BATS: [HOW TO USE BATS TO TEST YOUR COMMAND LINE TOOLS](https://www.engineyard.c
 
 ### main 1.0 (Nov 4, 2021)
 
-Update to fit Wechaty v1.x API
+1. Update example code to match Wechaty v1.x API
+1. Enable GitHub Actions (and remove Travis CI)
 
 ### v0.1 (Aug 14, 2018)
 
