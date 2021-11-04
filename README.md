@@ -24,20 +24,18 @@ Getting Started Template for Docker Users
 
 ### 1. Run Bot Examples
 
-#### 1.1 Run Vanilla Javascript Example
+#### 1.1 Run ~~CommonJS Javascript Example~~
 
-Source code at `src/javascript-vanilla.js`
+~~Source code at `src/javascript-vanilla.js`~~
 
-```shell
-bin/docker-run-javascript-vanilla.sh
-```
+CommonJS will not be supported anymore because we have switched to pure ESM from Wechaty v1.0.
 
-#### 1.2. Run ES6 Javascript Example
+#### 1.2. Run ES Module Javascript Example
 
-Source code at `src/javascript-es6.js`
+Source code at `src/javascript-esm.js`
 
 ```shell
-bin/docker-run-javascript-es6.sh
+bin/docker-run-javascript-esm.sh
 ```
 
 #### 1.3 Run TypeScript Example
