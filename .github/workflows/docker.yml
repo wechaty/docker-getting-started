@@ -25,4 +25,5 @@ jobs:
       run: |
           pwd
           ls -l
+          ./bin/docker-run.sh tests/fixtures/javascript.js
           bats tests/
