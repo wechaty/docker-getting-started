@@ -4,7 +4,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/wechaty/wechaty.svg?maxAge=2592000)](https://hub.docker.com/r/wechaty/wechaty/)
 [![Docker Stars](https://img.shields.io/docker/stars/wechaty/wechaty.svg?maxAge=2592000)](https://hub.docker.com/r/wechaty/wechaty/)
 [![Docker Layers](https://images.microbadger.com/badges/image/wechaty/wechaty.svg)](https://microbadger.com/#/images/wechaty/wechaty)
-[![Build Status](https://travis-ci.com/wechaty/docker-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/wechaty/docker-wechaty-getting-started)
+[![Docker CI](https://github.com/wechaty/docker-wechaty-getting-started/actions/workflows/docker.yml/badge.svg)](https://github.com/wechaty/docker-wechaty-getting-started/actions/workflows/docker.yml)
 
 [![dockeri.co](http://dockeri.co/image/wechaty/wechaty)](https://hub.docker.com/r/wechaty/wechaty/)
 
@@ -22,15 +22,17 @@ Getting Started Template for Docker Users
 
 ## USAGE
 
-### 1. Run Bot Examples
+### Run Bot Examples
 
-#### 1.1 Run ~~CommonJS Javascript Example~~
+#### 1. Run TypeScript Example
 
-~~Source code at `src/javascript-vanilla.js`~~
+Source code at `src/typescript.ts`
 
-CommonJS will not be supported anymore because we have switched to pure ESM from Wechaty v1.0.
+```shell
+bin/docker-run-typescript.sh
+```
 
-#### 1.2. Run ES Module Javascript Example
+#### 2. Run ES Module Javascript Example
 
 Source code at `src/javascript-esm.js`
 
@@ -38,13 +40,11 @@ Source code at `src/javascript-esm.js`
 bin/docker-run-javascript-esm.sh
 ```
 
-#### 1.3 Run TypeScript Example
+#### ~~3 Run CommonJS Javascript Example~~
 
-Source code at `src/typescript.ts`
+~~Source code at `src/javascript-vanilla.js`~~
 
-```shell
-bin/docker-run-typescript.sh
-```
+> CommonJS will not be supported anymore because we have switched to pure ESM from Wechaty v1.0.
 
 ### 2. Set Environment Variables
 
