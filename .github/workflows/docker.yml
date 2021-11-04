@@ -22,4 +22,7 @@ jobs:
     - name: Pull Docker Image
       run: docker pull wechaty/wechaty
     - name: Test
-      run: bats tests/
+      run: |
+          pwd
+          ls -l
+          bats tests/
